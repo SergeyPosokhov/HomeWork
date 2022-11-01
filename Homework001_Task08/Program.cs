@@ -10,4 +10,5 @@ while(i <= num)
     }  
 i = i + 1;    
 }
-Console.WriteLine("Введите другое число ");
+if(num <= 1)
+Console.WriteLine("Введите другое число");
